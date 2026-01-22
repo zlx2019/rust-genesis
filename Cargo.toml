@@ -1,12 +1,12 @@
 [package]
-name = "rust-genesis"
+name = "{{project-name}}"
 version = "0.1.0"
 edition = "2024"
 authors = ["zero<zero9501@outlook.com>"]
 description = "Rust project init template"
-documentation = "https://github.com/zlx2019/rust-genesis/README.md"
-homepage = "https://github.com/zlx2019/rust-genesis"
-repository = "https://github.com/zlx2019/rust-genesis"
+documentation = "https://github.com/zlx2019/{{project-name}}/README.md"
+homepage = "https://github.com/zlx2019/{{project-name}}"
+repository = "https://github.com/zlx2019/{{project-name}}"
 readme = "README.md"
 license = "MIT"
 keywords = ["template"]
