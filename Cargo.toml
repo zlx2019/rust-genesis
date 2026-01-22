@@ -1,0 +1,32 @@
+[package]
+name = "rust-genesis"
+version = "0.1.0"
+edition = "2024"
+authors = ["zero<zero9501@outlook.com>"]
+description = "Rust project init template"
+documentation = "https://github.com/zlx2019/rust-genesis/README.md"
+homepage = "https://github.com/zlx2019/rust-genesis"
+repository = "https://github.com/zlx2019/rust-genesis"
+readme = "README.md"
+license = "MIT"
+keywords = ["template"]
+
+[dependencies]
+
+[dev-dependencies]
+
+[build-dependencies]
+
+### Conditional compilation
+[features]
+
+
+### Working directory
+[workspace]
+members = []
+
+### Production packaging configuration
+[profile.release]
+
+### Debug packaging configuration
+[profile.dev]

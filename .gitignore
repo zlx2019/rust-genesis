@@ -1,0 +1,31 @@
+/target/
+**/*.rs.bk
+Cargo.lock
+
+.idea/
+*.iml
+
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+.DS_Store               # macOS
+Thumbs.db               # Windows
+desktop.ini             # Windows
+
+*.log
+/tmp/
+.env
+.env.*
+
+*.gcda
+*.gcno
+tarpaulin-report.html
+coverage/
+
+.nextest/
+
+/doc/
