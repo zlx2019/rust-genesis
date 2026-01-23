@@ -1,3 +1,7 @@
 [template]
-# 排除 cliff.toml，让它保持原样，不要尝试替换里面的 {{ }} 或 {% %}
+# 排除 cliff.toml，避免 Tera 模板语法与 cargo-generate 冲突
 exclude = ["cliff.toml"]
+
+[hooks]
+# 项目生成后替换 cliff.toml 中的 {{project-name}} 占位符
+post = ["sed -i '' 's/{{project-name}}/%project-name%/g' cliff.toml"]
