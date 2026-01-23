@@ -3,5 +3,3 @@
 exclude = ["cliff.toml"]
 
 [hooks]
-# 项目生成后替换 cliff.toml 中的 {{project-name}} 占位符
-post = ["bash -c \"sed -i '' 's/{{project-name}}/%project-name%/g' cliff.toml\""]
